@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Styles for Crafting Interpreters",
+  "version": "1.0",
+  "description": "Добавляет кастомные стили на сайте Crafting Interpreters.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://craftinginterpreters.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
